@@ -1,0 +1,142 @@
+.container {
+	
+}
+a {
+	text-decoration: none;
+	color: #efefef;
+}
+a:hover {
+	text-decoration: none;
+	color: #efefef;
+}
+ul {
+	padding: 0;
+}
+ul li {
+	list-style: none;
+}
+.radius-bg {
+	margin-top: 20px;
+	width: 100%;
+	height: 100%;
+	background-color: #ccc;
+	border-radius: 5px;
+
+}
+.header {
+	background-color: rgb(78, 182, 192);
+	color: #efefef;
+	border-radius: 5px;
+}
+.header .logo {
+	display: block;
+	margin: 30px auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px solid rgba(255,255,255,0.5);
+}
+.header ul {
+	margin: 30px auto;
+	text-align: left;
+}
+.header ul li {
+	line-height: 38px;
+	font-size: 1.2em;
+}
+.header .list-header li {
+	font-weight: bold;
+}
+.header dl {
+	margin: 30px auto;
+	font-size: 1.2em;
+}
+
+.header dl dt {
+	line-height: 20px;
+	/*width: 100px;*/
+	/*margin-right: 10px;*/
+	padding: 5px ;
+	text-align: center;
+	
+}
+
+.header .col-md-5 dl dd {
+	/*margin: 20px 30px;*/
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.header i {
+	width: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+.header .data {
+	margin-left: 5px;
+}
+
+.body {
+	position: relative;
+	padding:auto 7%;
+}
+.body h3 {
+	margin: 20px 20px 20px;
+	font-weight: bold;
+}
+.body h4 {
+	font-weight: bold;
+}
+.body a {
+	padding: 3px;
+	color: rgb(78,182,192);
+	background-color: rgba(255,255,255,0.5);
+	/*display: block;*/
+	border: 2px solid rgb(78,182,192);
+	font-size: .8em;
+	border-radius: 5px;
+}
+.body a: {
+	color: rgb(78,182,192);
+}
+/*.body .img {
+	display: block;
+	height: 160px;
+	width: 288px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}*/
+/*.body img {
+	width: 100%;
+}*/
+.body ul li {
+	display: block;
+	margin-bottom: 30px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.2);
+}
+.body p {
+	margin: 20px auto;
+	font-size: 1.2em;
+}
+.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background: rgb(78, 182, 192);
+    float: left;
+    position: absolute;
+    left: -8px;
+    top: 0px;
+}
+.line {
+	position: relative;
+    border-left: 2px solid rgb(78, 182, 192);
+    margin-left: 30px;
+    padding: 0 20px;
+}
+
+.footer a {
+	color: black;
+	/*border: 1px solid black;*/
+}
